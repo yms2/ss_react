@@ -1,0 +1,10 @@
+.content2{
+    display: flex;
+    justify-content: center;
+    width: 100%; height: 3800px;
+    background: red;
+}
+.buy{
+    margin-left: 20px;
+    width: 1500px; height: 800px;
+}

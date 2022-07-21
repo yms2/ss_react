@@ -5,6 +5,7 @@ import {FaMapMarkerAlt} from "react-icons/fa"
 import {BsArrowUpRight} from "react-icons/bs"
 import Mainimg from './mainimg';
 import Body from './body';
+import Content from './content';
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <div>
         <Mainimg/>
         <Body/>
+        <Content/>
       </div>
     </div>
     

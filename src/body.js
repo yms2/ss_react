@@ -13,7 +13,7 @@ const menuList = {
   4: <Con5 />
 };
 
-class App extends React.Component{
+class Body extends React.Component{
   constructor(props) {
     super();
 
@@ -47,4 +47,4 @@ class App extends React.Component{
 }
 
 
-export default App;
+export default Body;

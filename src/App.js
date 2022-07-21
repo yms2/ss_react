@@ -4,10 +4,11 @@ import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineUser } from "react-ico
 import {FaMapMarkerAlt} from "react-icons/fa"
 import {BsArrowUpRight} from "react-icons/bs"
 import Mainimg from './mainimg';
+import Body from './body';
 
 function App() {
   return (
-    <div>
+    <div className='wrap'>
       <div className='header'>
         <div className='header_in'>
           <div className='logo'>
@@ -17,7 +18,7 @@ function App() {
             <ul>
               <li>제품</li>
               <li>이벤트/선물하기</li>
-              <li>갤럭시 캠퍼스 스토어</li>
+              <li>갤럭시 캠퍼스 스토어</li>s
               <li>큐커 식품관</li>
               <li>#YouMake</li>
               <li>스마트싱스</li>
@@ -43,6 +44,7 @@ function App() {
 
       <div>
         <Mainimg/>
+        <Body/>
       </div>
     </div>
     

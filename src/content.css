@@ -6,5 +6,115 @@
 }
 .buy{
     margin-left: 20px;
-    width: 1500px; height: 800px;
+    width: 1400px; height: 800px;
+}
+.img1{
+    width: 1400px;height: 800px;
+    background-image: url(https://images.samsung.com/kdp/cms_contents/151281/be3a3d59-03aa-4adf-83e1-bb9661364118.jpg);
+}
+
+.img1 h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 580px;
+}
+.img1 p{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+}
+.img1 span{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;;
+}
+.img1 a{
+    margin-top: 7px;
+    text-decoration: underline;
+    color: black;
+   font-weight: bolder;
+}
+.img1 button{
+    width: 90px;
+    height: 35px;
+    margin-left: 25px;
+    border-radius: 15px;
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+
+
+.img2{
+    width: 1400px;height: 800px;
+    background-image: url(https://images.samsung.com/kdp/cms_contents/133195/b989d65e-4e08-4f03-8766-1a8e20bc1ef3.jpg);
+    color: white;
+}
+.img2 h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 580px;
+    
+}
+.img2 p{
+    margin: 0 auto;
+    width: 300px;
+    text-align: center;
+    
+}
+.img2 span{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;;
+    font-weight: bolder;
+}
+.img2 a{
+    margin-top: 7px;
+    text-decoration: underline;
+    color: white;
+   
+}
+.img2 button{
+    width: 110px;
+    height: 40px;
+    margin-left: 25px;
+    border-radius: 20px;
+    color: black;
+    background: white;
+    border:0;
+    cursor: pointer;
+}
+.img3{
+    width: 1400px;height: 800px;
+    background-image: url(https://images.samsung.com/kdp/cms_contents/151281/6474b798-ac02-4d36-8841-d157591d203b.jpg);
+}
+.img3  h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 580px;
+    
+}
+.img3 p{
+    margin: 0 auto;
+    width: 500px;
+    text-align: center;
+    
+}
+.img3 span{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;;
+    font-weight: bolder;
+}
+.img3 button{
+    width: 110px;
+    height: 40px;
+    border-radius: 20px;
+    color: white;
+    background: black;
+    border:0;
+    cursor: pointer;
 }

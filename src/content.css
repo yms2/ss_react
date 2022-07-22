@@ -6,7 +6,8 @@
 }
 .buy{
     margin-left: 20px;
-    width: 1400px; height: 800px;
+    width: 1400px;height: 3800px;
+    background: blue;
 }
 .img1{
     width: 1400px;height: 800px;
@@ -117,4 +118,33 @@
     background: black;
     border:0;
     cursor: pointer;
+}
+.trend{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1400px; height: 500px;
+    background: rgb(186, 186, 202);
+}
+.trend h2{
+    width: 350px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+}
+.trend img{
+    width: auto; height: auto;
+    border-radius: 15px;
+}
+.trend_r{
+    display: flex;
+    background: green;
+    width: 350px;
+    height: 300px;
+}
+.trend_r li{
+    width: 350px;
+    height: 70px;
+    background:yellow;
 }

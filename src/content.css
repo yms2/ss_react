@@ -1,13 +1,11 @@
 .content2{
     display: flex;
     justify-content: center;
-    width: 100%; height: 3800px;
-    background: red;
+    width: 100%; height: 4700px;
 }
 .buy{
     margin-left: 20px;
     width: 1400px;height: 3800px;
-    background: blue;
 }
 .img1{
     width: 1400px;height: 800px;
@@ -125,7 +123,6 @@
     justify-content: space-between;
     align-items: center;
     width: 1400px; height: 500px;
-    background: rgb(186, 186, 202);
 }
 .trend h2{
     width: 350px;
@@ -137,14 +134,95 @@
     width: auto; height: auto;
     border-radius: 15px;
 }
-.trend_r{
-    display: flex;
-    background: green;
-    width: 350px;
-    height: 300px;
+.trend_R{
 }
-.trend_r li{
+.trend_r1{
+    display: flex;
+    justify-content: baseline;
     width: 350px;
-    height: 70px;
-    background:yellow;
+    height: 100px;
+    border-bottom: 1px solid #fff;
+}
+.trend_r1 .txt1 p{
+    width: 30px;  height: 70px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+     
+}
+.trend_r1 .txt1 span{
+    width: 300px;height: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.trend_bottom{
+    width: 100%;height: 800px;
+    margin-top: 140px;
+    display: inline-block;
+    justify-content: center;
+}
+.trend_bottom .trend_b01{
+    float: left;
+    width: 100%; height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trend_bottom .trend_b02{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    margin-top: -10px;
+}
+.trend_bottom .trend_b03{
+    margin-top: 50px;
+    display: flex;  
+    width: 100%;
+    height: 800px;
+    justify-content: space-between;
+}
+.trend_bottom .trend_b031{
+    width: 448px; height: 800px;    
+}
+.trend_bottom img{
+    border-radius: 15px;
+}
+.trend_bottom .trend_b031t{
+    margin-left: 15px;
+}
+.trend_bottom .trend_b031 h3{
+    font-size: 25px;
+}
+.trend_bottom .trend_b032{
+    width: 448px; height: 500px;    
+}
+
+.trend_bottom .trend_b033{
+    width: 448px; height: 700px;    
+}
+.trend_bottom .trend_b033 img{
+    width: 448px;
+}
+.trend_bottom .trend_b04{
+    display: flex;
+    justify-content: space-between;
+    width: 100%; height: 600px;
+}
+.trend_bottom .trend_b042{
+    width: 448px; height: 500px;    
+    margin-top: -300px;
+}
+.trend_bottom .trend_b041{
+    width: 448px; height: 500px;    
+}
+
+.trend_bottom .trend_b043{
+    margin-top: -150px;
+    width: 448px; height: 500px;    
 }

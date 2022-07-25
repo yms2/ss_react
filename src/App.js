@@ -6,6 +6,7 @@ import {BsArrowUpRight} from "react-icons/bs"
 import Mainimg from './mainimg';
 import Body from './body';
 import Content from './content';
+import Footer from './footer';
 
 function App() {
   return (
@@ -47,6 +48,7 @@ function App() {
         <Mainimg/>
         <Body/>
         <Content/>
+        <Footer/>
       </div>
     </div>
     

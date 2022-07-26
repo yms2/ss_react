@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import {Link,Route} from 'react-router-dom';
 import { AiOutlineSearch, AiOutlineShoppingCart, AiOutlineUser } from "react-icons/ai";
 import {FaMapMarkerAlt} from "react-icons/fa"
 import {BsArrowUpRight} from "react-icons/bs"
-import Mainimg from './mainimg';
-import Body from './body';
-import Content from './content';
-import Footer from './footer';
+import Maincom from './maincom';
+import Sub from './sub/sub';
+import Sub2 from './sub/sub2';
 
 function App() {
   return (
@@ -14,15 +14,16 @@ function App() {
       <div className='header'>
         <div className='header_in'>
           <div className='logo'>
-            <img src='https://www.samsung.com/sec/static/_images/common/logo_samsung_black.svg'></img>
+          <Link to ='/'>
+            <img src='https://www.samsung.com/sec/static/_images/common/logo_samsung_black.svg'></img></Link>
           </div>
           <div className='nav_L'>
             <ul>
               <li>제품</li>
               <li>이벤트/선물하기</li>
-              <li>갤럭시 캠퍼스 스토어</li>s
-              <li>큐커 식품관</li>
-              <li>#YouMake</li>
+              <li>갤럭시 캠퍼스 스토어</li>
+              <li><Link to ='/sub/sub2'>큐커 식품관</Link></li>
+              <li><Link to ='/sub/sub'>#YouMake</Link></li>
               <li>스마트싱스</li>
               <li>아울렛</li>
               <li>고객서비스</li>
@@ -40,17 +41,15 @@ function App() {
                 <AiOutlineUser className='icon' size='32px'/>
               </ul>
           </div>
-          
         </div>
       </div>
-
       <div>
-        <Mainimg/>
-        <Body/>
-        <Content/>
-        <Footer/>
-      </div>
+          <Route path='/' exact={true} component={Maincom}/>
+          <Route path='/sub/sub'component={Sub}/>
+          <Route path='/sub/sub2'component={Sub2}/>
+          </div>
     </div>
+    
     
   );
 }

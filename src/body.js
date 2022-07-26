@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import './body.css';
 import Con1 from './body/con1'
 import Con2 from './body/con2'

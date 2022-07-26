@@ -16,6 +16,7 @@
   display: flex;
 }
 .header .logo img{
+  margin-top: 30px;
   width: 100px;
 }
 .header .nav_L{
@@ -34,6 +35,14 @@
   font-weight: 700;
   margin-right: 12px;
 }
+.header .nav_L li:hover{
+  border-radius: 15px;
+  background: black;
+  height: 30px;
+  color: white;
+  align-items: center;
+  transform: translate(1s);
+}
 .header .nav_R{
   display: flex;
   justify-content: space-between;
@@ -48,6 +57,14 @@
   font-size: 13px;
   font-weight: 700;
   margin-right: 15px;
+}
+.header .nav_R li:hover{
+  border-radius: 15px;
+  background: black;
+  height: 30px;
+  color: white;
+  align-items: center;
+  transform: translate(1s);
 }
 .header .nav_R .icon{
   margin-right: 10px;

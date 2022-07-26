@@ -1,6 +1,18 @@
 .mainimg{
-    width: 19030px; height: 810px;
-    background: red;
-    opacity: 1;
-    
+    /* width: 19030px ; */
+    /* width: 300vw; */
+    height: 800px;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.slide{
+    width: 100%;
+    display: flex;
+}
+.slide img{
+    width: 100%;
+}
+.non-scroll{
+    overflow: hidden;
 }

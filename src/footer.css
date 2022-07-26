@@ -3,7 +3,7 @@
     justify-content: center;
     width: 100%;
     height: 780px;
-    border-top: 1px solid #999;
+    border-top: 1px solid rgb(210, 207, 207);
 }
 .footer01{
     width: 100%; height: 500px;
@@ -18,7 +18,7 @@
     justify-content: space-around;
     width: 490px;
     height: 500px;
-    border-right: 1px solid #999;
+    border-right: 1px solid rgb(210, 207, 207);
 }
 .footer011_1 {
     margin-top: 65px;
@@ -31,7 +31,7 @@
     justify-content: center;
     width: 250px;
     height: 484px;
-    border-right: 1px solid #999;
+    border-right: 1px solid rgb(210, 207, 207);
     padding-top: 16px;
 }
 
@@ -40,7 +40,7 @@
     justify-content: center;
     width: 250px;
     height: 484px;
-    border-right: 1px solid #999;
+    border-right: 1px solid rgb(210, 207, 207);
     padding-top: 16px;
 }
 .footer014{
@@ -48,7 +48,7 @@
     justify-content: center;
     width: 250px;
     height: 484px;
-    border-right: 1px solid #999;
+    border-right: 1px solid rgb(210, 207, 207);
     padding-top: 16px;
 }
 .footer015{
@@ -62,7 +62,7 @@
 .footer02{
     display: flex;
     width: 100%;height: 200px;
-    border-top: 1px solid #999;
+    border-top: 1px solid rgb(210, 207, 207);
     justify-content: center;
 }
 .footer021{
@@ -82,7 +82,7 @@
     display: flex;
     width: 100%; height: 100px;
     justify-content: center;
-    border-top: 1px solid #999;
+    border-top: 1px solid rgb(210, 207, 207);
 }
 .footer031{
     display: flex;

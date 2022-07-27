@@ -55,15 +55,198 @@ function Sub(){
                         </div>
                     </div>
                     <div className='sub2con2'>
-                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box04_pc.png'></img>
-                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box05_pc.png'></img>
-                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box06_pc.png'></img>
+                        <div className='event4'>
+                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box04_pc.png'></img>
+                            <li><p>런칭 혜택 04</p></li>
+                            <li><span>삼성전자 멤버십 포인트 <br/>최대 24만 P증정</span></li>
+                            <li className='e_txt1'>삼성전자 멤버십 구매 금액대별 포인트 적립 기준</li>
+                            <li className='e_txt2'>일부 모델 한정 </li>
+                        </div>
+                        <div className='event5'>
+                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box05_pc.png'></img>
+                            <li><p>런칭 혜택 05</p></li>
+                            <li><span>삼성카드 최대 7% <br/>결제일 할인 (청구할인)</span></li>
+                            <li className='e_txt1'>일부 모델 한정</li>
+                        </div>
+                        <div className='event6'>
+                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box06_pc.png'></img>
+                            <li><p>런칭 혜택 06</p></li>
+                            <li className='e_txt3'>Roblox 이벤트</li>
+                            <li><span>삼성 스페이스 타이쿤 <br/>미션 인증하고 선물 받자!</span></li>
+                            <li className='e_txt1'>이벤트 참여하기 〉 </li>
+                        </div>
+                        <div className='event7'>
                         <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/bf_box07_pc.png'></img>
+                            <li><p>런칭 혜택 07</p></li>
+                            <li className='e_txt3'>삼성닷컴 X 남의집</li>
+                            <li><span>#YouMake<br/>취향공존 커뮤니티 <br/>참가비 전액 지원 이벤트!</span></li>
+                            <li className='e_txt1'>커뮤니티 신청하기  〉 </li>
+                        </div>
+                    </div>
+                    <div className='sub2con3'>
+                        <p>※ 갤럭시 캠퍼스 스토어 구매 고객의 경우 상기<span>#YouMake</span> 혜택 증정 대상에서 제외됩니다.</p>
                     </div>
                 </div>
-        </div>
-        </div>
             </div>
+        </div>
+        <div className='Subtitle3'>
+            <div className='inner'>
+                <div className='title_box'>
+                    <h3 className='title'>당신의 집. 당신만의 유니버스</h3>
+                        <p className='sub'>나의 라이프스타일에 꼭 맞는 제품에
+                        <span><img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_line2_pc.png' className='m_hide'></img></span>
+                        좋아요를 누르고, 댓글 이벤트에도 참여해 갖고 싶던 삼성 제품을 선물 받으세요!
+                        </p>
+                </div>
+                <div className='tab_list'>
+                    <ul>
+                        <li className='on'>
+                            <a href='#'>
+                                <span className='en'>#</span>
+                                홈오피스 패키지
+                            </a>
+                        </li>
+                        <li>
+                        <a href='#'>
+                                <span className='en'>#</span>
+                                홈트레이닝 패키지
+                            </a>
+                        </li>
+                        <li>
+                        <a href='#'>
+                                <span className='en'>#</span>
+                                홈리빙 패키지
+                            </a>
+                        </li>
+                        <li>
+                        <a href='#'>
+                                <span className='en'>#</span>
+                                홈키친 패키지
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='tab_content'>
+                    <div className='buying_wrap'>
+                        <div className='swiper1'>
+                            <div className='likebox'>
+                                <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_rd_pc.png'></img>
+                                <span>367</span>
+                                 명이 좋아합니다.
+                            </div>
+                            <div className='product_item'>
+                                <div className='tagbox'>
+                                    <span>10%</span>
+                                    <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tag01_pc.png'></img>
+                                </div>
+                                <div className='scanbox'>
+                                    <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tag05_pc.png'></img>
+                                </div>
+                                <div className='img_box'>
+                                    <div className='img_wrap'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/product2/SM-F711NZEFKOO.png'></img>
+                                    </div>
+                               </div>
+                               
+                            
+                            
+                            <div className='opt_box'>
+                                <fieldset className='color_box'>
+                                    <legend>Color</legend>
+                                    <input type="radio" id="radio"></input>
+                                    <label for="radio">크림</label>
+                                    <input type="radio" id="radio"></input>
+                                    <label for="radio">블랙</label>
+                                    <div className='size_box'>
+                                        <p>256GB</p>
+                                    </div>
+                                </fieldset>
+                                </div>
+                              
+                            <div className='name_box'>
+                                <p className='prd_name'>갤럭시 Z 플립3 5G 자급제</p>
+                                <p className='prd_sku'>SM-F711NZEFKOO</p>
+                            </div>
+                            
+                            <div className='txt_box'>
+                                <div className='price_wrap'>
+                                    <ul className='price_box'>
+                                        <li className='selling_price'>
+                                            <p>판매가</p>
+                                            <p className='sell1'>
+                                            <span>1,254,000</span>
+                                            원
+                                            </p>
+                                        </li>
+                                        <li className='txt_benefit'>
+                                            <p>쿠폰 할인가</p>
+                                            <p>
+                                                <span>1,128,600</span>
+                                                원
+                                            </p>
+                                        </li>
+                                        <li className='txt_discount'>
+                                            <p>삼성카드5%청구할인가</p>
+                                            <p>
+                                                <span>1,072,170</span>
+                                                원
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='point_wrap'>
+                                <div className='point_box'>
+                                    <ul>
+                                        <li>
+                                            <p>N페이 포인트 페이백</p>
+                                            <p>
+                                                <span>30,000P</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                        <p>삼성전자 멤버십 포인트</p>
+                                            <p>
+                                                <span>40,000P</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                        <p>삼성카드 5% 청구할인</p>
+                                            <p>
+                                                <span>56,430</span>
+                                                원
+                                            </p>
+                                        </li>
+                                        <li className='txt_total'>
+                                        <p>총 혜택</p>
+                                            <p>
+                                                <span>120,000</span>
+                                                원 상당
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='btn_box_wrap'>
+                                <div className='coupon_wrap'>
+                                    <a href='#'>할인쿠폰 다운받기</a>
+                                </div>
+                                <div className='btn_box'>
+                                    <div className='btn1'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_gift_pc.png'></img>
+                                    </div>
+                                    <div className='btn2'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/btn_heart_bg_pc_v3.png'></img>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
         </div>
     )
 }

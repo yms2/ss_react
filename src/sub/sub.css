@@ -28,7 +28,7 @@
 .Subtitle{
     display: flex;
     justify-content: center;
-    width: 100%;height: 2000px;
+    width: 100%;height: 1300px;
     background-image: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/benefit_bg_v4.png');
 }
 .Subtitle ul{
@@ -79,6 +79,7 @@
 .Subtitle .item6{
     background:#c1e2f3;
 }
+
 .Subtitle2{
     display: inline-block;
 }
@@ -161,4 +162,306 @@
 }
 .sub2con2 img{
     width: 320px;
+}
+.event4{
+    position: relative;
+}
+.event5{
+    position: relative;
+}
+.event6{
+    position: relative;
+}
+.event7{
+    position: relative;
+}
+.sub2con2 li p{
+    position:absolute;top: 35px;left: 50px;
+    color: white;
+    width: 90px;
+    height: 25px;
+    line-height: 25px;
+    border-radius: 15px;
+    text-align: center;
+    background: black;
+    font-size: 13px;
+    font-weight: bold;
+}
+.sub2con2 li span{
+    position: absolute; top: 85px;left: 50px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+} 
+.sub2con2 .e_txt1{
+    position: absolute; top: 150px;left: 50px;
+    font-size: 11px;
+    color: white;
+}
+.sub2con2 .e_txt2{
+    position: absolute; top: 170px;left: 50px;
+    font-size: 11px;
+    color: white;
+}
+.sub2con2 .e_txt3{
+    position: absolute; top: 80px;left: 50px;
+    font-size: 17px;
+    color: white;
+}
+.event6 li span{
+    position: absolute; top: 100px;
+}
+.event6 .e_txt1{
+    position: absolute; top: 160px;
+    text-decoration: underline;
+}
+.event7 li span{
+    position: absolute;top: 100px;
+}
+.event7 .e_txt1{
+    position: absolute; top: 190px;
+    text-decoration: underline;
+}
+
+.sub2con3{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.sub2con3 span{
+    font-weight: bold;
+}
+.Subtitle3{
+    display: flex;
+    justify-content: center;
+    margin-top: -180px;
+    background-image: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_bg_pc_v1.png');
+    height: 1800px;
+}
+.Subtitle3 .inner{
+    text-align: center;
+    margin-top: 150px;
+    width: 1300px;
+    height: 2500px;
+    background-color: #c1e2f3;
+}
+.title_box{
+    justify-content: center;
+}
+.Subtitle3 .title{
+    font-size: 52px;
+    letter-spacing: -0.2rem;
+}
+.tab_list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.tab_list ul{
+    display: flex;
+    justify-content: space-around;
+    width: 1100px;
+    padding-left: 0;    
+}
+.tab_list li{
+    width: 250px; height: 75px;
+    background: transparent;
+    border-radius: 40px;
+    border: 1px solid #8f91b6;
+    box-shadow: inset 0 0 15px 0 #8f91b6, 0 0 15px 0 #8f91b6;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 75px;
+    cursor: pointer;
+}
+.tab_list a{
+    color: #47434c;
+}
+
+.tab_content{
+    
+    width: 100%;
+    height: 1500px;
+    background: red;
+}
+.buying_wrap{
+    display: flex;
+    position: relative;
+    width: 700px;
+    height: 1330px;
+    background: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tab1_bg_pc.png') no-repeat;
+    background-size: 680px 600px;
+}
+.swiper1{
+    display: inline-block;
+    justify-content: center;
+    position: absolute;bottom: 10px;
+    width: 250px;
+    height: 700px;
+}
+.likebox{
+    margin: 0 auto;
+    width: 200px;
+    height: 45px;
+    line-height: 30px;
+    background: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/heart_count_bg_pc.png')no-repeat;
+    letter-spacing: -0.1rem;
+}
+.likebox span{
+    font-weight: bolder;
+}
+.product_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 650px;
+    background: white;
+    border-radius: 15px;
+}
+
+.tagbox{
+    position: absolute;
+    top: 65px;
+    right: -5px;
+}
+.tagbox span{
+    position: absolute;
+    top: 3px;
+    right: 7px;
+    color: white;
+    font-weight: bold;
+    font-size: 13px;
+}
+.scanbox{
+    position: absolute;
+    top: 115px;
+    right: -5px;
+}
+
+.img_box{
+    width: 100%;
+    height: 150px;
+}
+.img_wrap img{
+    margin-top: 10px;
+    max-width: 120px;
+}
+ .opt_box{
+    display: flex;
+    height: 70px ;
+}
+.color_box{
+    width: 150px;
+    height: 80px;
+}
+.size_box{
+    margin: 0 auto;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background: black;
+    border-radius: 15px;
+}
+
+.name_box{
+    letter-spacing: -0.1rem;
+    margin-top: 25px;
+    font-weight: 700;
+    width: 210px;
+    border-bottom: 1px solid #8f91b6;
+}
+
+.prd_sku{
+    font-weight: 100;
+}
+.txt_box{
+    display: flex;
+}
+.price_wrap{
+    letter-spacing: -0.1rem;
+}
+.price_box{
+    min-height: 62px;
+    width: 190px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+
+}
+.selling_price{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+}
+.txt_benefit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+    color: #77aee5;;
+}
+.txt_discount{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+    color: #77aee5;;
+}
+
+.point_wrap{
+    display: flex;
+}
+.point_box{
+
+}
+.point_box ul{
+    padding-left: 0;
+    display: flex;
+    width: 190px;
+    flex-direction: column;
+    font-size: 11px;
+}
+.point_box li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 1px;
+}
+.point_box span{
+    font-weight: 700;
+}
+.txt_total{
+    color: #77aee5;
+}
+.coupon_wrap{
+    display: flex;
+    justify-content: center;
+    width: 190px;
+    height: 30px;
+    background: purple;
+    border-radius: 10px;
+}
+.coupon_wrap a{
+    font-size: 13px;
+    line-height: 30px;
+    color:white ;
+}
+.btn_box{
+    margin-top: 5px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #47434c;
+}
+.btn1 img{
+    margin-left: 3px;
 }

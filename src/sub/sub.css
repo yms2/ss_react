@@ -7,7 +7,7 @@
     display: flex;
     width: 100%;height: 780px;
     background: red;
-    background-image: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/kv_pc.png');
+    background: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/kv_pc.png')no-repeat;
 }
 .Mainimg .Sub{
     margin-top: -5px;
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     width: 100%;height: 1300px;
-    background-image: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/benefit_bg_v4.png');
+    background: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/benefit/benefit_bg_v4.png')no-repeat;
 }
 .Subtitle ul{
     display: flex;
@@ -236,7 +236,7 @@
     display: flex;
     justify-content: center;
     margin-top: -180px;
-    background-image: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_bg_pc_v1.png');
+    background: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_bg_pc_v1.png')no-repeat;
     height: 1800px;
 }
 .Subtitle3 .inner{
@@ -244,7 +244,6 @@
     margin-top: 150px;
     width: 1300px;
     height: 2500px;
-    background-color: #c1e2f3;
 }
 .title_box{
     justify-content: center;
@@ -280,24 +279,32 @@
 }
 
 .tab_content{
-    
+    display: flex;
+    justify-content: space-between;
     width: 100%;
-    height: 1500px;
-    background: red;
+    height: 1350px;
 }
 .buying_wrap{
     display: flex;
-    position: relative;
+    align-items: flex-end;
+    justify-content: space-between;
     width: 700px;
     height: 1330px;
     background: url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tab1_bg_pc.png') no-repeat;
-    background-size: 680px 600px;
+    background-size: 700px 600px;
 }
 .swiper1{
     display: inline-block;
     justify-content: center;
-    position: absolute;bottom: 10px;
-    width: 250px;
+    width: 220px;
+    height: 700px;
+}
+.swiper2{
+    width: 220px;
+    height: 700px;
+}
+.swiper3{
+    width: 220px;
     height: 700px;
 }
 .likebox{
@@ -316,28 +323,29 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 650px;
+    height: 620px;
     background: white;
     border-radius: 15px;
 }
-
+.box{
+    position: relative;
+}
 .tagbox{
     position: absolute;
-    top: 65px;
-    right: -5px;
+    top: 20px;
+    left: 72px;
 }
 .tagbox span{
     position: absolute;
-    top: 3px;
-    right: 7px;
+    top: 2px;
+    left: 5px;
     color: white;
-    font-weight: bold;
-    font-size: 13px;
+    font-weight: 700;
 }
 .scanbox{
     position: absolute;
-    top: 115px;
-    right: -5px;
+    top: 70px;
+    left: 72px;
 }
 
 .img_box{
@@ -350,11 +358,10 @@
 }
  .opt_box{
     display: flex;
+    justify-content: center;
     height: 70px ;
 }
 .color_box{
-    width: 150px;
-    height: 80px;
 }
 .size_box{
     margin: 0 auto;
@@ -365,16 +372,38 @@
     background: black;
     border-radius: 15px;
 }
-
+.size_box2{
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+}
+.size_box2 p{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background: black;
+    border-radius: 15px;
+}
 .name_box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     letter-spacing: -0.1rem;
     margin-top: 25px;
     font-weight: 700;
     width: 210px;
+    height: 90px;
     border-bottom: 1px solid #8f91b6;
 }
-
 .prd_sku{
+    display: flex;
+    font-weight: 100;
+}
+.prd_sku2{
+    margin-top: -5px;
     font-weight: 100;
 }
 .txt_box{
@@ -386,6 +415,7 @@
 .price_box{
     min-height: 62px;
     width: 190px;
+    height: 80px;
     padding-left: 0;
     display: flex;
     flex-direction: column;
@@ -417,7 +447,8 @@
     display: flex;
 }
 .point_box{
-
+    border: 2px solid #77aee5 ;
+    border-radius: 15px;
 }
 .point_box ul{
     padding-left: 0;
@@ -443,7 +474,7 @@
     justify-content: center;
     width: 190px;
     height: 30px;
-    background: purple;
+    background: rgb(209, 18, 209);
     border-radius: 10px;
 }
 .coupon_wrap a{
@@ -451,17 +482,111 @@
     line-height: 30px;
     color:white ;
 }
+.btn_box_wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+
+}
 .btn_box{
+    display: flex;
+    justify-content: space-between;
     margin-top: 5px;
 }
 .btn1{
     display: flex;
     align-items: center;
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     border: 1px solid #47434c;
 }
 .btn1 img{
-    margin-left: 3px;
+    margin-left: 5px;
+}
+
+.btn2{
+    display: flex;
+    align-items: center;
+    width: 80px;
+    height: 30px;
+    background:url('https://images.samsung.com/kdp/event/sec/0711_youmake/launching/btn_heart_bg_pc_v3.png') no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+.btn3{
+    width: 80px;
+    height: 30px;
+    background: black;
+    border-radius: 15px;
+    color: white;
+    line-height: 30px;
+}
+.btn3:hover{
+    width: 78px;
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+
+
+.event_wrap{
+    display: flex;
+    justify-content: center;
+    width:556px ;
+    height: 1300px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid #8f91b6;
+    box-shadow: inset 0 0 15px 0 #8f91b6, 0 0 15px 0 #8f91b6;
+}
+.event_top .title_box{
+}
+.title1{
+    padding-top: 30px;
+}
+.title1 p{
+    font-size: 24px;
+    font-weight: bold;
+}
+.title1 span{
+    color: #7b23d1;;
+}
+.event_txt{
+    font-size: 14px;
+    display: flex;
+    width: 440px;
+    justify-content:space-between;
+    font-weight: bold;
+}
+.event_txt span{
+    font-weight: bolder;
+}
+
+.event_box{
+    display: flex;
+    height: 150px;
+    background: #F1F1F1;
+    border-radius: 15px;
+}
+.event_box {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.event_box p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.step_box{
+    width: 70px;
+    background: #7b23d1;
+    color: white;
+    border-radius: 5px;
+    padding: 0 7px;
+    margin: 0 5px 0 0 ;
 }

@@ -135,12 +135,14 @@ function Sub(){
                                  명이 좋아합니다.
                             </div>
                             <div className='product_item'>
+                                <div className='box'>
                                 <div className='tagbox'>
                                     <span>10%</span>
                                     <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tag01_pc.png'></img>
                                 </div>
                                 <div className='scanbox'>
                                     <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tag05_pc.png'></img>
+                                </div>
                                 </div>
                                 <div className='img_box'>
                                     <div className='img_wrap'>
@@ -151,8 +153,7 @@ function Sub(){
                             
                             
                             <div className='opt_box'>
-                                <fieldset className='color_box'>
-                                    <legend>Color</legend>
+                                <div className='color_box'>
                                     <input type="radio" id="radio"></input>
                                     <label for="radio">크림</label>
                                     <input type="radio" id="radio"></input>
@@ -160,7 +161,7 @@ function Sub(){
                                     <div className='size_box'>
                                         <p>256GB</p>
                                     </div>
-                                </fieldset>
+                                </div>
                                 </div>
                               
                             <div className='name_box'>
@@ -236,12 +237,265 @@ function Sub(){
                                         <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_gift_pc.png'></img>
                                     </div>
                                     <div className='btn2'>
-                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/btn_heart_bg_pc_v3.png'></img>
+                                       
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_line_pc.png'></img>좋아요
+                                    </div>
+                                    <div className='btn3'>
+                                        구매하기
                                     </div>
                                 </div>
                             </div>
                             </div>
                         </div>
+                        <div className='swiper2'>
+                        <div className='likebox'>
+                                <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_rd_pc.png'></img>
+                                <span>280</span>
+                                 명이 좋아합니다.
+                            </div>
+                            <div className='product_item'>
+                            <div className='box'>
+                                <div className='tagbox'>
+                                    <span>22%</span>
+                                    <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tag01_pc.png'></img>
+                                </div>
+
+                                </div>
+                                <div className='img_box'>
+                                    <div className='img_wrap'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/product2/KQ50QNB90AFXKR.png'></img>
+                                    </div>
+                               </div>
+                               
+                            
+                            
+                            <div className='opt_box'>
+                                <div className='color_box'>
+                                    <div className='size_box'>
+                                        <p>125 cm</p>
+                                    </div>
+                                    <div className='size_box2'>
+                                        <p>스탠드형</p>
+                                        <p>벽걸이형</p>
+                                    </div>
+                                </div>
+                                </div>
+                              
+                            <div className='name_box'>
+                                <p className='prd_name'>2022 Neo QLED4K125 cm <br/>스탠드형</p>
+                                <p className='prd_sku2'>KQ50QNB90AFXKR</p>
+                            </div>
+                            
+                            <div className='txt_box'>
+                                <div className='price_wrap'>
+                                    <ul className='price_box'>
+                                        <li className='selling_price'>
+                                            <p>판매가</p>
+                                            <p className='sell1'>
+                                            <span>2,290,000</span>
+                                            원
+                                            </p>
+                                        </li>
+                                        <li className='txt_benefit'>
+                                            <p>혜택가</p>
+                                            <p>
+                                                <span>1,790,000</span>
+                                                원
+                                            </p>
+                                        </li>
+                                        <li className='txt_discount'>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='point_wrap'>
+                                <div className='point_box'>
+                                    <ul>
+                                        <li>
+                                            <p>N페이 포인트 페이백</p>
+                                            <p>
+                                                <span>30,000P</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                        <p>삼성전자 멤버십 포인트</p>
+                                            <p>
+                                                <span>40,000P</span>
+                                            </p>
+                                        </li>
+                                        <li className='txt_total'>
+                                        <p>총 혜택</p>
+                                            <p>
+                                                <span>70,000</span>
+                                                원 상당
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='btn_box_wrap'>
+                                <div className='btn_box'>
+                                    <div className='btn1'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_gift_pc.png'></img>
+                                    </div>
+                                    <div className='btn2'>
+                                       
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_line_pc.png'></img>좋아요
+                                    </div>
+                                    <div className='btn3'>
+                                        구매하기
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div className='swiper3'>
+                            <div className='likebox'>
+                                <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_rd_pc.png'></img>
+                                <span>367</span>
+                                 명이 좋아합니다.
+                            </div>
+                            <div className='product_item'>
+                            <div className='box'>
+                                <div className='tagbox'>
+                                    <span>30%</span>
+                                    <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_tag01_pc.png'></img>
+                                </div>
+                                </div>
+                                <div className='img_box'>
+                                    <div className='img_wrap'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/product2/KQ50QNB90-B5.png'></img>
+                                    </div>
+                               </div>
+                               
+                            
+                            
+                            <div className='opt_box'>
+                            <div className='color_box'>
+                                    <div className='size_box'>
+                                        <p>125 cm</p>
+                                    </div>
+                                    <div className='size_box2'>
+                                        <p>스탠드형</p>
+                                        <p>벽걸이형</p>
+                                    </div>
+                                </div>
+                                </div>
+                              
+                            <div className='name_box'>
+                                <p className='prd_name'>NeoOLED4K125cm스탠드형+2.1 <br/> 채널 사운드바B550</p>
+                                <p className='prd_sku2'>Kq50QNB90-B5</p>
+                            </div>
+                            
+                            <div className='txt_box'>
+                                <div className='price_wrap'>
+                                    <ul className='price_box'>
+                                        <li className='selling_price'>
+                                            <p>판매가</p>
+                                            <p className='sell1'>
+                                            <span>1,254,000</span>
+                                            원
+                                            </p>
+                                        </li>
+                                        <li className='txt_benefit'>
+                                            <p>쿠폰 할인가</p>
+                                            <p>
+                                                <span>1,128,600</span>
+                                                원
+                                            </p>
+                                        </li>
+                                        <li className='txt_discount'>
+                                            <p>삼성카드5%청구할인가</p>
+                                            <p>
+                                                <span>1,072,170</span>
+                                                원
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='point_wrap'>
+                                <div className='point_box'>
+                                    <ul>
+                                        <li>
+                                            <p>N페이 포인트 페이백</p>
+                                            <p>
+                                                <span>30,000P</span>
+                                            </p>
+                                        </li>
+                                        <li>
+                                        <p>삼성전자 멤버십 포인트</p>
+                                            <p>
+                                                <span>40,000P</span>
+                                            </p>
+                                        </li>
+                                        <li className='txt_total'>
+                                        <p>총 혜택</p>
+                                            <p>
+                                                <span>70,000</span>
+                                                원 상당
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className='btn_box_wrap'>
+
+                                <div className='btn_box'>
+                                    <div className='btn1'>
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_gift_pc.png'></img>
+                                    </div>
+                                    <div className='btn2'>
+                                       
+                                        <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/icon_heart_line_pc.png'></img>좋아요
+                                    </div>
+                                    <div className='btn3'>
+                                        구매하기
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='event_wrap'>
+                        <div className='event_top'>
+                            <div className='title_box'>
+                                <div className='title1'>
+                                    <p>갖고 싶은 <span>#YouMake 핫템 ‘좋아요’</span>누르고, <br/><span>나만의 활용법을 ‘댓글’</span>로 공유해주세요!</p></div>
+                                </div>
+                                <div className='event_txt'>
+                                    <p>이벤트 기간</p>
+                                    <p><span>2022.07.18</span> (월) ~ <span>2022.08.31</span> (수)</p>
+                                </div>
+                                <div className='event_txt'>
+                                    <p>경품지급</p>
+                                    <p><span>2022.09.14 (수)</span> *개별 당첨 안내</p>
+                                </div>
+                                <div className='event_txt'>
+                                    <p>참여방법</p>
+                                    <p>매주 좋아요를 누르고 댓글을 작성해주시면 당첨 확률 <span>Up!</span></p>
+                                </div>
+                                <div className='event_box'>
+                                    <div className='event_box1'>
+                                        <p>
+                                            {/* <span className='step_box'>STEP01</span>
+                                            각 패키지 별 이미지 하단의 제품 중 마음에 드는 제품에
+                                            
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_img01_pc.png'></img>
+                                            클릭하고 응모 */}
+                                        </p>
+                                    </div>
+                                        {/* <p>
+                                            <span className='step_box'>STEP01</span>
+                                            각 패키지 별 이미지 하단의 제품 중 마음에 드는 제품에
+                                            <br/>
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_img01_pc.png'></img>
+                                            클릭하고 응모
+                                        </p> */}
+                                </div>
+                        </div>
+                        <div className='event_bottom'></div>
+
                     </div>
                 </div>
             </div>

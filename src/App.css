@@ -29,11 +29,18 @@
   display: flex;
   align-items: center;
 }
+.header .nav_L a{
+  color:  black;
+}
+.header .nav_L a:hover{
+  color:  white;
+}
 .header .nav_L li{
   display: flex;
   font-size: 13px;
   font-weight: 700;
   margin-right: 12px;
+  color: black;
 }
 .header .nav_L li:hover{
   border-radius: 15px;

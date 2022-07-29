@@ -6,7 +6,6 @@ import {FaMapMarkerAlt} from "react-icons/fa"
 import {BsArrowUpRight} from "react-icons/bs"
 import Maincom from './maincom';
 import Sub from './sub/sub';
-import Sub2 from './sub/sub2';
 
 function App() {
   return (
@@ -46,7 +45,6 @@ function App() {
       <div>
           <Route path='/' exact={true} component={Maincom}/>
           <Route path='/sub/sub'component={Sub}/>
-          <Route path='/sub/sub2'component={Sub2}/>
           </div>
     </div>
     

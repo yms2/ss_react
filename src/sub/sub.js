@@ -1,10 +1,11 @@
 import React from 'react';
 import './sub.css'
+import Footer from '../footer';
 function Sub(){
     return(
-        <div>
-            <div className='Sub'>
-            <div className='Mainimg'>
+    <div>
+        <div className='Sub'>
+                <div className='Mainimg'>
                 <div className='Main'>
                     <h2>#YouMake 프로젝트</h2>
                     <div className='Maintxt'>
@@ -14,7 +15,7 @@ function Sub(){
                 </div>
             </div>
             <div className='Subtitle'>
-            <div className='Content'>
+                <div className='Content'>
                 <ul>
                     <li className='item1'><a href='#'>
                         <span>#YouMake</span>
@@ -87,9 +88,9 @@ function Sub(){
                         <p>※ 갤럭시 캠퍼스 스토어 구매 고객의 경우 상기<span>#YouMake</span> 혜택 증정 대상에서 제외됩니다.</p>
                     </div>
                 </div>
+                </div>
             </div>
-        </div>
-        <div className='Subtitle3'>
+            <div className='Subtitle3'>
             <div className='inner'>
                 <div className='title_box'>
                     <h3 className='title'>당신의 집. 당신만의 유니버스</h3>
@@ -477,31 +478,97 @@ function Sub(){
                                 </div>
                                 <div className='event_box'>
                                     <div className='event_box1'>
-                                        <p>
-                                            {/* <span className='step_box'>STEP01</span>
-                                            각 패키지 별 이미지 하단의 제품 중 마음에 드는 제품에
-                                            
-                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_img01_pc.png'></img>
-                                            클릭하고 응모 */}
-                                        </p>
-                                    </div>
-                                        {/* <p>
-                                            <span className='step_box'>STEP01</span>
-                                            각 패키지 별 이미지 하단의 제품 중 마음에 드는 제품에
+                                        <div className='step_box1'>STEP01</div>
+                                        <p>각 패키지 별 이미지 하단의 제품 중 마음에 드는 제품에
                                             <br/>
                                             <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_img01_pc.png'></img>
-                                            클릭하고 응모
-                                        </p> */}
+                                            <span>클릭하고 응모</span>
+                                        </p>
+                                    </div>
+                                    <div className='event_box2'>
+                                        <div className='step_box2'>STEP02</div>
+                                        <p><span>#YouMake</span>핫템을 가장 멋지게 쓸 수 있는 나만의 활용법을 
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_img02_pc.png'></img>
+                                        </p>
+                                        <p className='box2_txt'>※<span>좋아요</span>와<span>댓글 참여</span>는 중복 참여합니다.</p>
+                                    </div>
                                 </div>
+                                <div className='event_gift'>
+                                        <h4>이벤트 경품 안내</h4>
+                                        <div className='gift'>
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_gift01_pc.png'></img>
+                                            <p><span>댓글왕</span><br/>
+                                            스마트 모니터M8 <br/>(1명)
+                                            </p>
+                                        </div>
+                                        <div className='gift'>
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_gift02_pc.png'></img>
+                                            <p><span>출첵왕</span><br/>
+                                            BESPOKE 큐커 <br/>(1명)
+                                            </p>
+                                        </div>
+                                        <div className='gift'>
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_gift03_pc.png'></img>
+                                            <p><span>하트왕</span><br/>
+                                            갤럭시 워치4 <br/>(1명)
+                                            </p>
+                                        </div>
+                                        <div className='gift'>
+                                            <img src='https://images.samsung.com/kdp/event/sec/0711_youmake/launching/universe_gift04_pc.png'></img>
+                                            <p><span>참가상</span><br/>
+                                            스타벅스 아메리카노 <br/>(1명)
+                                            </p>
+                                        </div>
+                                </div>
+                                <div className='event_bottom'>
+                                    <div className='bottom_title'>
+                                        <h3>전체 나만의 활용법 <span>643</span>건</h3>
+                                        <p>댓글 작성하기</p>
+                                    </div>
+                                    <div className='list'>
+                                        <p>갤럭시북2 Pro 360, MS 오피스 2021, 갤럭시 버즈2 <br/>패키지라면 어디서든 업무 환경이 갖춰지기 때문에...</p>
+                                        <span>김*훈</span>
+                                    </div>
+                                    <div className='list'>
+                                    <p>갤럭시워치로 자전거 여행하면서 내 몸이 건강해지는  <br/>순간순간을 느끼고 싶네요. 일과 육아에서 벗어나 잠...</p>
+                                        <span>신*탁</span>
+                                    </div>
+                                    <div className='list'>
+                                    <p>다양한 기능이 있어 문서작성도 쉽게 할 수 있고 가벼워<br/>서 휴대성도 좋아요.</p>
+                                        <span>이*현</span>
+                                    </div>
+                                    <div className='list'>
+                                    <p>집에서 영화관느낌도 낼 수 있고 색깔선택도 가능해서<br/> 디자인효과도 있는 것 같아요!</p>
+                                        <span>이*현</span>
+                                    </div>
+                                    <div className='list'>
+                                    <p>집에 반려견이 있는데 털이 많이빠져서 대신 털 치워주<br/>기가 가능할 것 같아요~~~</p>
+                                        <span>이*현</span>
+                                    </div>
+                                    <div className='button'>
+                                        <div className='number'>
+                                            <img src='https://www.samsung.com/sec/static/_images/common/icon-pg-first.svg'></img>
+                                            <img src='https://www.samsung.com/sec/static/_images/common/icon-pg-prev.svg'></img>
+                                            <li>1</li>
+                                            <li>2</li>
+                                            <li>3</li>
+                                            <li>4</li>
+                                            <li>5</li>
+                                            <img src='https://www.samsung.com/sec/static/_images/common/icon-pg-next.svg'></img>
+                                            <img src='https://www.samsung.com/sec/static/_images/common/icon-pg-last.svg'></img>
+                                        </div>
+
+                                    </div>
+                            </div>
                         </div>
-                        <div className='event_bottom'></div>
 
                     </div>
                 </div>
             </div>
+            </div>
         </div>
+        <Footer/>
     </div>
-        </div>
     )
 }
 export default Sub;
